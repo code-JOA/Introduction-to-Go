@@ -16,6 +16,12 @@ func main() {
 
 	thor := "I am thor"
 	fmt.Println(thor)
-	
+	thorRating := 3
+	fmt.Println(thorRating)
+
+	thor := "I am thor"
+	fmt.Println(thor)
+	thorRating := 3
+	fmt.Println(thorRating)
 
 }
