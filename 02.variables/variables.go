@@ -22,9 +22,9 @@ func main() {
 
 	// note printf is for formating options eg placeholders
 	// "%v,%T" this %v shows the value and the %T shows the datatype( int or float)
-	// note with floats in golang, we can also write 3. and it will still work. 
+	// note with floats in golang, we can also write 3. and it will still work.
 	thorSpeed := 3.0
-	fmt.Printf("%v,%T", "Thor Speed is:", thorSpeed, thorSpeed, "\n")
+	fmt.Printf("%v,%T\n", "Thor Speed is:", thorSpeed, thorSpeed)
 
 	var ironman, captAmerica string = "I am Ironman", "I am Capt America"
 	fmt.Println(ironman, captAmerica)
