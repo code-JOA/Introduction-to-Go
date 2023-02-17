@@ -20,7 +20,7 @@ func main() {
 			fmt.Printf("length is %v, %T", len, len)
 			fmt.Println(`This is a Backtick`)
 		}
-
+	// note else should start right after the if stmt ends and not on the next line or error
 	} else {
 		fmt.Println("Show user login page")
 	}
