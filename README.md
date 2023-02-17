@@ -1,5 +1,8 @@
 <!-- #region -->
-# <a id='7'>Windturbine visualisations and prediction of faulty turbines</a>
+# <a id='7'>Introduction-to-Go</a>
+
+![Repo List](./images/go.png)
+
 
 
 # Resources
@@ -17,9 +20,7 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 
 ```python
 
-What a Wind Turbine Looks like :
 
-![Repo List](./images/wt1.jpg)
 
 
 ```
