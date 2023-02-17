@@ -21,6 +21,7 @@ func main() {
 	fmt.Println(thorRating)
 
 	// note printf is for formating options eg placeholders
+	
 	thorSpeed := 3.0
 	fmt.Printf("%v,%T", thorSpeed, thorRating)
 
