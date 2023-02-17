@@ -14,6 +14,9 @@ func main() {
 	if isLoggedIn && balance > 15 {
 		fmt.Println("Show cart page")
 		var len, err = fmt.Println("Show cart page")
+		if err == nil {
+			fmt.Println("Passed test", len)
+		}
 
 	} else {
 		fmt.Println("Show user login page")
