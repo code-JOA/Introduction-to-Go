@@ -24,6 +24,7 @@ func main() {
 	// "%v,%T" this %v shows the value and the %T shows the datatype( int or float)
 	thorSpeed := 3.0
 	fmt.Printf("%v,%T", "Thor Speed is:", thorSpeed, thorSpeed)
+	
 
 	var ironman, captAmerica string = "I am Ironman", "I am Capt America"
 	fmt.Println(ironman, captAmerica)
