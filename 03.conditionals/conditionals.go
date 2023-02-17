@@ -17,7 +17,7 @@ func main() {
 		if err == nil {
 			fmt.Println("Passed test", len)
 			// using placeholders v is verbs and T is the datatype
-			fmt.Println("length is %v, %T", len, len)
+			fmt.Printf("length is %v, %T", len, len)
 			fmt.Println(`This is a Backtick`)
 		}
 
