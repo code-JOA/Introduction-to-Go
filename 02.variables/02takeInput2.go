@@ -10,18 +10,18 @@ import (
 
 func main() {
 
-	// var myString string
-	// fmt.Scanln(&myString)
-	// fmt.Println(myString)
+	var myString string
+	fmt.Scanln(&myString)
+	fmt.Println(myString)
 
-	// var name string = "hitesh"
-	// var a, _ = fmt.Println(name)
-	// fmt.Println(a)
+	var name string = "hitesh"
+	var a, _ = fmt.Println(name)
+	fmt.Println(a)
 
-	// reader := bufio.NewReader(os.Stdin)
-	// fmt.Print("Enter you full name: ")
-	// myname, _ := reader.ReadString('\n')
-	// fmt.Println(myname)
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("Enter you full name: ")
+	myname, _ := reader.ReadString('\n')
+	fmt.Println(myname)
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter your rating: ")
