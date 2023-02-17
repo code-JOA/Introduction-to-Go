@@ -33,5 +33,9 @@ func main() {
 
 	var(
 		spiderman = "I am Spiderman", "I am Capt America"
+		age = 18
+		powers = "web slings"
+		antman = "I am antman"
 	)
+	fmt
 }
