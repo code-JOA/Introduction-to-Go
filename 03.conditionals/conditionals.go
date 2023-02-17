@@ -13,4 +13,7 @@ function main() {
 	if isLoggedIn {
 		fmt.Println("Show cart page")
 	}
+	else {
+		fmt.Println("Show user login page")
+	}
 }
