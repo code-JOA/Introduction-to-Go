@@ -7,8 +7,7 @@ func main() {
 	fmt.Println(Batman)
 
 	var superman string = "I am Superman"
-	fmt.Println(superman)
-
-	
+	var power int = 5
+	fmt.Println(superman, power)
 
 }
