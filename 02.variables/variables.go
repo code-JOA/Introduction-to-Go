@@ -16,12 +16,12 @@ func main() {
 
 	thor := "I am thor"
 	fmt.Println(thor)
-	
+
 	thorRating := 3
 	fmt.Println(thorRating)
 
-	// note printf is for 
-	thorSpeed := 3
-	fmt.Printf("%v,%T", thorSpeed)
+	// note printf is for formating options eg placeholders
+	thorSpeed := 3.0
+	fmt.Printf("%v,%T", thorSpeed, thorRating)
 
 }
