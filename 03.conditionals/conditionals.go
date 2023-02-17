@@ -1,14 +1,16 @@
 package main
 
-import ("fmt"
+import (
+	"fmt"
+)
 
 
 
 
 function main(){
-	var isloggedIn bool = true
+	var isLoggedIn bool = true
 
-	if isloggedIn {
+	if isLoggedIn {
 		fmt.Println("Show cart page")
 	}
 }
