@@ -19,8 +19,8 @@ func main() {
 	thorRating := 3
 	fmt.Println(thorRating)
 
-	# note print
+	// note printf
 	thorSpeed := 3
-	fmt.Printf("%v", "%T" , thorSpeed)
+	fmt.Printf("%v, %T" , thorSpeed)
 
 }
