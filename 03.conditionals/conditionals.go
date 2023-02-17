@@ -7,7 +7,7 @@ import (
 
 
 
-function main(){
+function main() {
 	var isLoggedIn bool = true
 
 	if isLoggedIn {
