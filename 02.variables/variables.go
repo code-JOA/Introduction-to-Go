@@ -25,14 +25,14 @@ func main() {
 	thorSpeed := 3.0
 	fmt.Printf("%v,%T", "Thor Speed is:", thorSpeed, thorSpeed)
 
-	// var ironman, captAmerica string = "I am Ironman", "I am Capt America"
-	// fmt.Println(ironman, captAmerica)
+	var ironman, captAmerica string = "I am Ironman", "I am Capt America"
+	fmt.Println(ironman, captAmerica)
 
 	var defaultValue int
 	fmt.Println(defaultValue)
 
 	var (
-		spiderman = "I am Spiderman", "I am Capt America"
+		spiderman = "I am Spiderman"
 		age       = 18
 		powers    = "web slings"
 		antman    = "I am antman"
