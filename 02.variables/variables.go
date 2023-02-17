@@ -25,4 +25,6 @@ func main() {
 	thorSpeed := 3.0
 	fmt.Printf("%v,%T", "Thor Speed is:", thorSpeed, thorSpeed)
 
+	var ironman, captAmerica sting = "I am Ironman" , "I am Capt America"
+
 }
