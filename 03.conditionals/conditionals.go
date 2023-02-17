@@ -16,6 +16,8 @@ func main() {
 		var len, err = fmt.Println("Show cart page")
 		if err == nil {
 			fmt.Println("Passed test", len)
+			using placeholders
+			fmt.Println("length is %v, %T")
 		}
 
 	} else {
