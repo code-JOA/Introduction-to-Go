@@ -7,7 +7,7 @@ import (
 func main() {
 	var isLoggedIn bool = true
 	// var isLoggedIn bool = false
-	var balance int = 10
+	var balance int = 4
 
 	// note else should start right after the if stmt ends and not on the next line or error
 	// && means and "and" || means Or
@@ -21,8 +21,8 @@ func main() {
 			fmt.Println(`This is a Backtick`)
 		}
 		// note else should start right after the if stmt ends and not on the next line or error
-	} else if isLoggedIn && balance > 5 {
-		fmt.Println("Check if you have money in your account")
+		// } else if isLoggedIn && balance < 5 {
+		// 	fmt.Println("Check if you have money in your account")
 	} else {
 		fmt.Println("Show user login page")
 	}
