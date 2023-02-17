@@ -21,7 +21,9 @@ func main() {
 			fmt.Println(`This is a Backtick`)
 		}
 	// note else should start right after the if stmt ends and not on the next line or error
-	} else if isLogginIn && balance > 15 
+	} else if isLogginIn && balance > 5 {
+		fmt.Println("Check if you have money in your account")
+	} 
 	else {
 		fmt.Println("Show user login page")
 	}
