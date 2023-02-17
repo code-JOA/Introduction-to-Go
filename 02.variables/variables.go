@@ -18,11 +18,11 @@ func main() {
 	fmt.Println(thor)
 
 	thorRating := 3
-	fmt.Println(thorRating)
+	fmt.Println("Thor rating is: ", thorRating)
 
 	// note printf is for formating options eg placeholders
 	// "%v,%T" this %v shows the value and the %T shows the datatype( int or float)
 	thorSpeed := 3.0
-	fmt.Printf("%v,%T", thorRating, thorRating)
+	fmt.Printf("%v,%T", thorSpeed, thorSpeed)
 
 }
