@@ -13,6 +13,8 @@ func main() {
 	// && means and "and" || means Or
 	if isLoggedIn && balance > 15 {
 		fmt.Println("Show cart page")
+		var len, err = fmt.Println("Show cart page")
+
 	} else {
 		fmt.Println("Show user login page")
 	}
