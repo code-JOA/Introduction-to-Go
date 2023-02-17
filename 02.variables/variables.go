@@ -22,8 +22,8 @@ func main() {
 
 	// note printf is for formating options eg placeholders
 	// "%v,%T" this %v shows the value and the %T shows the datatype( int or float)
-	thorSpeed := 3.0
-	fmt.Printf("%v,%T", "Thor Speed is:", thorSpeed, thorSpeed)
+	// thorSpeed := 3.0
+	// fmt.Printf("%v,%T", "Thor Speed is:", thorSpeed, thorSpeed)
 
 	var ironman, captAmerica string = "I am Ironman", "I am Capt America"
 	fmt.Println(ironman, captAmerica)
@@ -31,11 +31,11 @@ func main() {
 	var defaultValue int
 	fmt.Println(defaultValue)
 
-	var(
+	var (
 		spiderman = "I am Spiderman", "I am Capt America"
-		age = 18
-		powers = "web slings"
-		antman = "I am antman"
+		age       = 18
+		powers    = "web slings"
+		antman    = "I am antman"
 	)
-	fmt
+	fmt.Println(spiderman, age, powers, antman)
 }
