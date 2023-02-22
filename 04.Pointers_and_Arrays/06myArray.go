@@ -6,9 +6,9 @@ import (
 
 func main() {
 	var numbers [3]string
-	numbers[0] = "uno"
-	numbers[1] = "dos"
-	numbers[2] = "tres"
+	numbers[0] = "bread"
+	numbers[1] = "chocolate"
+	numbers[2] = "piz"
 
 	fmt.Println(numbers)
 
