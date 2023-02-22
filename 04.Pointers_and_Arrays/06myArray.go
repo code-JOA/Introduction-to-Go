@@ -8,7 +8,7 @@ func main() {
 	var numbers [3]string
 	numbers[0] = "bread"
 	numbers[1] = "chocolate"
-	numbers[2] = "piz"
+	numbers[2] = "pizza"
 
 	fmt.Println(numbers)
 
