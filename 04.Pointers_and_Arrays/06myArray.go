@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Println(numbers)
 
-	var colors = [4]string{"rojo", "gris", "azul", "verde"}
+	var colors = [4]string{"prawns", "chicken", "meat", "vegetables"}
 	fmt.Println(colors)
 	fmt.Println(colors[2])
 	fmt.Println(len(colors))
