@@ -4,7 +4,6 @@ import "fmt"
 
 func main() {
 	age := 18
-	can_drink = "True"
 
 	if age >= 18 {
 		fmt.Println("You can drive alone")
