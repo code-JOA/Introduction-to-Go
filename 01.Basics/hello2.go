@@ -21,7 +21,7 @@ func main() {
 	s5 := s[7:12]
 	s6 := s[:5]
 	s7 := s[7:]
-	fmt.Println(s, s2, s3, s4, s5)
+	fmt.Println(s, s4, s5, s6, s7)
 
 }
 
