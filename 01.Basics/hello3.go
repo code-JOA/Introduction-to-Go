@@ -15,4 +15,9 @@ func main() {
 
 	fmt.Println(s, "Has ", len(s), "words.", s2, "Has ", len(s2), " words.", s3, "Has ", len(s3), "words.")
 
+	x := "Hello, "
+	var r rune = 127757
+	x = x + string(r)
+	fmt.Println(x)
+
 }
