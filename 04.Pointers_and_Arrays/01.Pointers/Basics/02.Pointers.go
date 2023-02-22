@@ -1,14 +1,21 @@
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var b *int
+
+// 	fmt.Println(b)
+// 	fmt.Println(*b)
+// }
+
 package main
 
 import "fmt"
 
 func main() {
-	var b *int
-
+	v b *int
+	
 	fmt.Println(b)
 	fmt.Println(*b)
 }
-
-package main
-
-import "fmt"
