@@ -4,8 +4,10 @@ func main() {
 	s3 := s + " " + s2
 	fmt.Println(s3)
 
-	b:= s[0]
-	b2
+	b := s[0]
+	b2 := s[4]
+	fmt.Println(s,b, string(b), b2, string(b2), string(b2), string(b)
+
 }
 
 func main() {
