@@ -1,10 +1,16 @@
 package main 
 
-import 
+import (
+	"fmt"
+)
+
 
 func main() {
-	s := "Hello, world!"
-	b := s[0]
-	b2 := s[4]
-	fmt.Println(s, b, string(b), b2, string(b2))
-}
+
+		s := "Hello, world!"
+		s2 := s[0:5]
+		s3 := s[7:12]
+		s4 := s[:5]
+		s5 := s[7:]
+		fmt.Println(s, s2, s3, s4, s5)
+	}
