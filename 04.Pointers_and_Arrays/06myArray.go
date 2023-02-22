@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	var numbers [3]string
-	numbers[0] = "bread"
+	var menu [3]string
+	menu[0] = "bread"
 	numbers[1] = "chocolate"
 	numbers[2] = "pizza"
 
