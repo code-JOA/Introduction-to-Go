@@ -5,12 +5,12 @@ import (
 )
 
 func main() {
-	var lifebooster float64 = 99.2
-	lifeboosterRef := &lifebooster
+	var gamepoint float64 = 99.2
+	gameshooterRef := &gamepoint
 
-	lifebooster = lifebooster * 2.2
+	lifebooster = gamepoint * 2.2
 
-	fmt.Println(lifebooster)
+	fmt.Println(gamepoint)
 	fmt.Println(*lifeboosterRef)
 
 }
