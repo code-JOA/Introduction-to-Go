@@ -9,5 +9,11 @@ func main() {
 	fmt.Println(*b)
 }
 
+// **********************************************Warning *****************************************************************
 
-Note the above will gennerate an error since we didnt allow
+
+
+// Note twill gennerate an error since we didnt assign any variable to b 
+
+
+// **********************************************Warning *****************************************************************
