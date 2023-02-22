@@ -14,8 +14,8 @@ package main
 import "fmt"
 
 func main() {
-	v b *int
-	
+	var b *int
+
 	fmt.Println(b)
 	fmt.Println(*b)
 }
