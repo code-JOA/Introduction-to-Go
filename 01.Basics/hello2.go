@@ -17,6 +17,8 @@ func main() {
 	b2 := s[4]
 	fmt.Println(x, b, string(b), b2, string(b2), string(b2), string(b))
 
+	
+
 }
 
 // func main() {
