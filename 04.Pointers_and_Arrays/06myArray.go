@@ -12,9 +12,9 @@ func main() {
 
 	fmt.Println(menu)
 
-	var chef = [4]string{"prawns", "chicken", "meat", "vegetables"}
-	fmt.Println(co)
-	fmt.Println(colors[2])
-	fmt.Println(len(colors))
+	var restaurant = [4]string{"prawns", "chicken", "meat", "vegetables"}
+	fmt.Println(restaurant)
+	fmt.Println(restaurant[2])
+	fmt.Println(len(restaurant))
 
 }
