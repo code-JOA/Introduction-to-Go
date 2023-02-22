@@ -7,13 +7,13 @@ import (
 func main() {
 	var menu [3]string
 	menu[0] = "bread"
-	numbers[1] = "chocolate"
-	numbers[2] = "pizza"
+	menu[1] = "chocolate"
+	menu[2] = "pizza"
 
-	fmt.Println(numbers)
+	fmt.Println(menu)
 
-	var colors = [4]string{"prawns", "chicken", "meat", "vegetables"}
-	fmt.Println(colors)
+	var chef = [4]string{"prawns", "chicken", "meat", "vegetables"}
+	fmt.Println(co)
 	fmt.Println(colors[2])
 	fmt.Println(len(colors))
 
