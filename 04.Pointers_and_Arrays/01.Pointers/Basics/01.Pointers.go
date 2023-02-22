@@ -17,3 +17,5 @@ func main() {
 	c = 40
 	fmt.Println(a, b, *b, c)
 }
+
+
