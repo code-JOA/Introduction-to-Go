@@ -17,7 +17,11 @@ func main() {
 	b2 := s[4]
 	fmt.Println(x, b, string(b), b2, string(b2), string(b2), string(b))
 
-	
+	s4 := s[0:5]
+	s5 := s[7:12]
+	s6 := s[:5]
+	s7 := s[7:]
+	fmt.Println(s, s2, s3, s4, s5)
 
 }
 
