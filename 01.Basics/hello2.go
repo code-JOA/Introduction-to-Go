@@ -11,7 +11,8 @@ func main() {
 	fmt.Println(s3)
 
 
-    
+	x := "Go to, \n\t\"the world!\" with a backslash \\"
+	fmt.Println(s)
 	b := s[0]
 	b2 := s[4]
 	fmt.Println(s, b, string(b), b2, string(b2), string(b2), string(b))
