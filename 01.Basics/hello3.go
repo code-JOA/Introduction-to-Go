@@ -13,6 +13,6 @@ func main() {
 	s5 := s[7:]
 	fmt.Println(s, s2, s3, s4, s5)
 
-	fmt.Println(s, "Has ", len(s), "words", s2, len(s2), s3, len(s3))
+	fmt.Println(s, "Has ", len(s), "words", "\n\n" , s2, "Has " len(s2), " words"s3, len(s3))
 
 }
