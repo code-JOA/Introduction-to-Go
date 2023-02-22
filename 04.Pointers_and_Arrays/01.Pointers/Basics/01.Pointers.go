@@ -17,3 +17,14 @@ func main() {
 	c = 40
 	fmt.Println(a, b, *b, c)
 }
+
+package main
+
+import "fmt"
+
+func main() {
+	a := 10
+	b := &a
+	c := a
+	fmt.Println(a, b, *b, c)
+}
