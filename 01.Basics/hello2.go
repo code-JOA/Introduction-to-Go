@@ -1,3 +1,9 @@
+package main
+
+import (
+	"fmt"
+)
+
 func main() {
 	s := "Hello, world!"
 	s2 := "👋 🌍"
@@ -6,13 +12,13 @@ func main() {
 
 	b := s[0]
 	b2 := s[4]
-	fmt.Println(s,b, string(b), b2, string(b2), string(b2), string(b)
+	fmt.Println(s, b, string(b), b2, string(b2), string(b2), string(b))
 
 }
 
-func main() {
-	s := "Hello, world!"
-	b := s[0]
-	b2 := s[4]
-	fmt.Println(s, b, string(b), b2, string(b2))
-}
+// func main() {
+// 	s := "Hello, world!"
+// 	b := s[0]
+// 	b2 := s[4]
+// 	fmt.Println(s, b, string(b), b2, string(b2))
+// }
