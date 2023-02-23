@@ -16,5 +16,11 @@ func main() {
 	luggage = append(luggage[1 : len(luggage)-1])
 	fmt.Println(luggage)
 
-	heroes := make([]string)
+	heroes := make([]string, 3, 3)
+
+	heroes[0] = "Batman"
+	heroes[1] = "Superman"
+	heroes[2] = "Spiderman"
+
+	fmt.Println(heroes)
 }
