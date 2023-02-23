@@ -21,6 +21,11 @@ func main() {
 		fmt.Println(things[i])
 	}
 
+	s := "Hello, world!"
+		for k, v := range s {
+			fmt.Println(k, v, string(v))
+		}
+	}
 	
 
 	// # There are no while loops in Go but we can use a similar syntax
