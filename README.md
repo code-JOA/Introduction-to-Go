@@ -30,21 +30,14 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 
 #### [Part 1: Baiscs](#why_go)
 - [Hello world](#why_py)
-<!-- - [Introduction to Data Types](#intro)
-- [Jupyter Notebook](#jupyter_nb)
-- [Python Variables](#variables)
-- [Operators](#operators)
-- [Integers and Floats](#numbers)
-- [Strings](#strings)
-	-[String Indexing](#slicing)
-- [Printing Strings](#print)
-- [Lists](#lists)
-- [Tuples](#tuples)
-- [Dictionaries](#dictionary)
-- [Importing Packages and Documentation](#import)
-- [Practice With a Partner](#ind-practice) -->
+
 
 #### [Part 2: Variables](#02.variables)
+- [variable.go](#01.variable.go)
+- [take2inputs](#02.take2inputs.go)
+- [year-of-birth](#03.Year-of-Birth.go)
+
+
 
 
 #### [Part 3: Functions , map( ), reduce( ) , lambda( ) , containers](#functions_et_al)
