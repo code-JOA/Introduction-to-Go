@@ -12,12 +12,16 @@ func main() {
 		}
 	}
 	fmt.Println(i)
-	
 
-s := "Hello, world!"
+	s := "Hello, world!"
 	for k, v := range s {
 		fmt.Println(k, v, string(v))
-		}
-
-		
 	}
+
+	s := "👋 🌍"
+	
+	for k, v := range s {
+		fmt.Println(k, v, string(v))
+	}
+
+}
