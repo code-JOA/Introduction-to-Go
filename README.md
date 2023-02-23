@@ -39,8 +39,11 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 
 
 
+#### [Part 3: Conditionals](#conditionals)
+- [conditionals](#conditionals.go)
+- [if-else-statement](#if_else.go)
+- [year-of-birth](#YearOfBirth.go)
 
-#### [Part 3: Functions , map( ), reduce( ) , lambda( ) , containers](#functions_et_al)
 
 #### [Part 4: Regex, OOP](#regex)
 
