@@ -22,7 +22,7 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 
 
 
-```python
+<!-- #region -->
 ### Lesson Guide
 
 ## [Session 1: Introduction to Golang ](#Intro)
@@ -30,7 +30,7 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 
 #### [Part 1: Baiscs](#why_go)
 - [Hello world](#why_py)
-- [Introduction to Data Types](#intro)
+<!-- - [Introduction to Data Types](#intro)
 - [Jupyter Notebook](#jupyter_nb)
 - [Python Variables](#variables)
 - [Operators](#operators)
@@ -42,9 +42,10 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 - [Tuples](#tuples)
 - [Dictionaries](#dictionary)
 - [Importing Packages and Documentation](#import)
-- [Practice With a Partner](#ind-practice)
+- [Practice With a Partner](#ind-practice) -->
 
-#### [Part 2: For Loop and while Loop](#for_loop)
+#### [Part 2: Variables](#02.variables)
+
 
 #### [Part 3: Functions , map( ), reduce( ) , lambda( ) , containers](#functions_et_al)
 
@@ -55,7 +56,7 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 #### [Part 6: Pandas](#Pandas)
 
 #### [Part 7: Data Visualisation ](#data_viz)
-```
+<!-- #endregion -->
 
 ```python
 
