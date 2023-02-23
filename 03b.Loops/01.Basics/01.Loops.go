@@ -5,6 +5,10 @@ import "fmt"
 
 func main() {
 	start := 1
-	things := []string
+	things := []string{"suitcase", "vase", "flower", "house" , "car"}
+
+	fmt.Println(things)
+
+	for i := 0; i 
 
 }
