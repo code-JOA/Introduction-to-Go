@@ -11,8 +11,7 @@ func main() {
 	var vals2 [3]int = vals
 	fmt.Println(vals, vals2)
 
-
-// # Same as the above 
+	// # Same as the above
 
 	var v [3]int
 	v[0] = 2
@@ -22,7 +21,9 @@ func main() {
 
 	arr := [4]int{1, 2, 3, 4}
 	total := 0
-    
-	for 
 
+	for i := 0; i < len(arr); i++ {
+		total += arr[i]
+	}
+	fmt.Println(total)
 }
