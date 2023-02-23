@@ -5,37 +5,22 @@ import (
 )
 
 func main() {
-	aSlice := []int{1, 2, 3, 4, 5}
-	fmt.Println(aSlice)
-	integers := make([]int, 2)
-	fmt.Println(integers)
 
-	integers = nil
-	fmt.Println(integers)
+	s := make([]string, 0)
+	fmt.Println("length of s:", len(s))
 
-	anArray := [5]int{-1, -2, -3, -4, -5}
-	refAnArray := anArray[:]
-	fmt.Println(anArray)
-	fmt.Println(refAnArray)
-	anArray[4] = -100
-	fmt.Println(refAnArray)
+	s = append(s, "hello")
+	fmt.Println("length of s:", len(s))
+	fmt.Println("contents of s[0]:", s[0])
 
-	s := make([]byte, 5)
-	fmt.Println(s)
-	twoD := make([][]int, 3)
-	fmt.Println(twoD)
-	fmt.Println()
+	s[0] = "goodbye"
+	fmt.Println("contents of s[0]:", s[0])
 
-	for i := 0; i < len(twoD); i++ {
-		for j := 0; j < 2; j++ {
-			twoD[i] = append(twoD[i], i*j)
-		}
-	}
+	s2 := make([]string, 2)
+	fmt.Println("contents of s2[0]:", s2[0])
 
-	for _, x := range twoD {
-		for i, y := range x {
-			fmt.Println("i:", i, "value:", y)
-		}
-		fmt.Println()
-	}
+	s2 = append(s2, "hello")
+	fmt.Println("contents of s2[0]:", s2[0])
+	fmt.Println("contents of s2[2]:", s2[2])
+	fmt.Println("length of s2:", len(s2))
 }
