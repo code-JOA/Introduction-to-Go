@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var b int() = 43
+	var b = 43
 	c := &b
 	*b := c
 
