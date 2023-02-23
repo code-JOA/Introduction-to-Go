@@ -19,11 +19,11 @@ func main() {
 		fmt.Println(x)
 	}
 
-	for x := 0; x <= 100; x ++ {
-		if x != 0 && x % 3 == 0 && x % 7 == 0 && x % 9 == 0 {
+	for x := 0; x <= 100; x++ {
+		if x != 0 && x%3 == 0 && x%7 == 0 && x%9 == 0 {
+			fmt.Println(x)
 
 		}
 	}
 
-	
 }
