@@ -1,7 +1,7 @@
 <!-- #region -->
 # <a id='7'>Introduction-to-Go</a>
 
-![](https://forthebadge.com/images/badges/made-with-go.svg)
+![](https://forthebadge.com/images/badges/go.svg)
 
 
 ![Repo List](./images/go.png)
