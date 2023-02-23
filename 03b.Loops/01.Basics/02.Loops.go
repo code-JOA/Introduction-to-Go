@@ -19,7 +19,8 @@ func main() {
 		fmt.Println(x)
 	}
 
-	for x := 0; x <= 10; x += 2 {
+	for x := 0; x <= 100; x ++ {
+		if x != 0 && x 
 		fmt.Println(x)
 	}
 
