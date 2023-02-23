@@ -17,4 +17,6 @@ func main() {
 
 	s = append(s, s...)
 	fmt.Println("s+s:\t\t", s)
+
+	
 }
