@@ -31,12 +31,14 @@ func main() {
 		fmt.Println("Start is now: ", start)
 	}
 
-	// for start < 100 {
-	// 	start += start
-	// 	if start == 32 {
-	// 		continue
-	// 	}
-	// 	fmt.Println("Start is now: ", start)
-	// }
+	for start < 100 {
+		start += start
+		if start == 32 {
+			continue
+		}
+		fmt.Println("Start is now: ", start)
+	}
+
+	
 
 }
