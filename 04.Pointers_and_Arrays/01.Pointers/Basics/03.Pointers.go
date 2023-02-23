@@ -8,6 +8,10 @@ func main() {
 	*b := c
 
 	fmt.Println(b)
-	fmt.Println(*b)
+
+	b = 20
+	fmt.Println(b, *b)
+
+	c = 40
 	fmt.Println(*c)
 }
