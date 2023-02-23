@@ -14,3 +14,11 @@ func main() {
 	fmt.Println(b)
 	fmt.Println(*b)
 }
+
+
+// This will also cause an error because nothing has been assigned to 'b'
+
+func main() {
+	var b : int()
+	fmt.Println(b)
+}
