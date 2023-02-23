@@ -44,4 +44,6 @@ func main() {
 	for i, value := range anArray {
 		fmt.Println("index:", i, "value: ", value)
 	}
+
+	cart := [4]string{"choco","sug"}
 }
