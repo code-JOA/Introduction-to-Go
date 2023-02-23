@@ -33,7 +33,11 @@ func main() {
 
 	// Two dimentional arrays
     twoD := [2][3]int{{1,2,3}, {4,5,6}}
-	fmt.Println 
+	fmt.Println(twoD[0][2])
+	
+	for i := 0; i < len(arr); i++ {
+		total += arr[i]
+	}
 
 
 }
