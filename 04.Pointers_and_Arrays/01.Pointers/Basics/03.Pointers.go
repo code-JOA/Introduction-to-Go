@@ -2,13 +2,16 @@ package main
 
 import "fmt"
 
-func new() {
+// Assignment 1
+func new2() {
 	a := new(int)
 
 	fmt.Println(a)
 	fmt.Println(*a)
 }
 
+
+// # Assignment 2
 func setTo10(b *int) {
 	*b = 10
 }
@@ -19,6 +22,7 @@ func main() {
 	setTo10(&b)
 	fmt.Println(b)
 }
+
 
 func setTo10Fail(c *int) {
 	c = new(int)
