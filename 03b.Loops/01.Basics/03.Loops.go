@@ -46,7 +46,7 @@ func main() {
 	}
 
 	cart := [4]string{"choco","sugar","orange","apple"}
-	for item, food : range cart {
-		fmt.Println("index")
+	for item, value : range cart {
+		fmt.Println("index:", item,"food:", food)
 	}
 }
