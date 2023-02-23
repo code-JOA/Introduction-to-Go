@@ -22,6 +22,7 @@ import "fmt"
 func setTo10Fail(a *int) {
 	a = new(int)
 	*a = 10
+}
 
 func main() {
 	a := 20
@@ -29,4 +30,3 @@ func main() {
     setTo10Fail(&a)
 	fmt.Println(a)
 	}	
-}
