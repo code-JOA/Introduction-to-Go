@@ -29,6 +29,12 @@ func main() {
 		total += arr[i]
 	}
 	fmt.Println(total)
+
+
+	// Two dimentional arrays
+    arr
+
+
 }
 
 
