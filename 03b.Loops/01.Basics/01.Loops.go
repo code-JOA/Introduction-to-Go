@@ -25,7 +25,6 @@ func main() {
 	for k, v := range s {
 		fmt.Println(k, v, string(v))
 	}
-	// }
 
 	// # There are no while loops in Go but we can use a similar syntax
 
