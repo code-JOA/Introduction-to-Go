@@ -20,8 +20,9 @@ func main() {
 	}
 
 	for x := 0; x <= 100; x ++ {
-		if x != 0 && x 
-		fmt.Println(x)
+		if x != 0 && x % 3 == 0 && x % 7 == 0 && x % 9 == 0 {
+
+		}
 	}
 
 	
