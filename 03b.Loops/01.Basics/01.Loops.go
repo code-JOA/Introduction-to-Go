@@ -20,4 +20,9 @@ func main() {
 	for i := range things {
 		fmt.Println(things[i])
 	}
+
+    // # There are no while loops in Go but we can use a similar syntax
+
+
+	
 }
