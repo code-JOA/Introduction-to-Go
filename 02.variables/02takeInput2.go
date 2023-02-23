@@ -22,7 +22,7 @@ func main() {
 	fmt.Scanln(&myString)
 	fmt.Println(myString)
 
-	var name string = "hitesh"
+	var name string = "Joshua"
 	var a, _ = fmt.Println(name)
 	fmt.Println(a)
 
