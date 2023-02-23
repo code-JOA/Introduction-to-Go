@@ -15,7 +15,8 @@ func main() {
 	// print out position range 1 and take out the last item in the Array
 	luggage = append(luggage[1 : len(luggage)-1])
 	fmt.Println(luggage)
-
+ 
+	// # Here we want to create heroes, with 3 elements with an upperbound of 3 but note we can add more items with slices
 	heroes := make([]string, 3, 3)
 
 	heroes[0] = "Batman"
@@ -23,4 +24,6 @@ func main() {
 	heroes[2] = "Spiderman"
 
 	fmt.Println(heroes)
+
+	heroes
 }
