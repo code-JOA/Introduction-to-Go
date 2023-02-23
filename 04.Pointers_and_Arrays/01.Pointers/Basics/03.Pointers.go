@@ -5,13 +5,13 @@ import "fmt"
 func main() {
 	var b = 43
 	c := &b
-	*b := c
+	b := c
 
 	fmt.Println(b)
 
 	b = 20
-	fmt.Println(b, *b)
+	fmt.Println(b, *b, c)
 
 	c = 40
-	fmt.Println(*c)
+	fmt.Println(b, *c)
 }
