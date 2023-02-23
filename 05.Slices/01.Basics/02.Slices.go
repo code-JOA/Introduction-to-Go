@@ -10,8 +10,10 @@ func main() {
 
 	ref := a[:]
 	fmt.Println("Existing array:\t", ref)
+
 	t := append(s, ref...)
 	fmt.Println("New slice:\t", t)
+	
 	s = append(s, ref...)
 	fmt.Println("Existing slice:\t", s)
 
