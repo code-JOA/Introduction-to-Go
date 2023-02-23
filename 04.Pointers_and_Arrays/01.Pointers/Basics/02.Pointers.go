@@ -15,10 +15,11 @@ func main() {
 	fmt.Println(*b)
 }
 
-
 // This will also cause an error because nothing has been assigned to 'b'
 
-func main() {
-	var b : int()
+func b1() {
+	var b *int = 40
+
 	fmt.Println(b)
+	fmt.Println(*b)
 }
