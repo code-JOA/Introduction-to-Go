@@ -13,10 +13,3 @@ func main() {
 	}
 	fmt.Println(i)
 }
-
-func m() {
-	s := "Hello, world!"
-	for k, v := range s {
-		fmt.Println(k, v, string(v))
-	}
-}
