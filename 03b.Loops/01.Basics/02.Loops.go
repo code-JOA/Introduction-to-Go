@@ -9,5 +9,8 @@ func main() {
 		x++
 	}
 
-	
+	// # this is the same as the code above
+	for x := 0; x <= 5; x++ {
+		fmt.Println(x)
+	}
 }
