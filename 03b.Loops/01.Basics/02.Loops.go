@@ -16,6 +16,6 @@ func main() {
 		if i > 7 {
 			break
 		}
-		fmt.Println(i)
+		fmt.Println("This is where Break statements stops", i)
 	}
 }
