@@ -1,6 +1,10 @@
 <!-- #region -->
 # <a id='7'>Introduction-to-Go</a>
 
+ # Author : [Joshua Owusu Ankomah](https://www.linkedin.com/in/joshua-owusu-ankomah-2b5a9898/)
+ 
+ 
+
 ![Profile Views](https://gpvc.arturio.dev/code-JOA)<a href="https://github.com/code-JOA/Introduction-to-Go/actions"></a>
 
 ![Repo List](./images/go.png)
