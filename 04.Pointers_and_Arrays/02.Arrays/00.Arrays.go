@@ -19,6 +19,9 @@ func main() {
 	v[2] = 6
 	fmt.Println(v, v[0], v[1], v[2])
 
+
+	// # next array
+
 	arr := [4]int{1, 2, 3, 4}
 	total := 0
 
@@ -27,3 +30,5 @@ func main() {
 	}
 	fmt.Println(total)
 }
+
+
