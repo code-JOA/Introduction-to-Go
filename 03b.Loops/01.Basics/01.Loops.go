@@ -25,7 +25,10 @@ func main() {
 
     for start < 100 {
 		start += start
+		if condition
 		fmt.Println("Start is now: ", start)
+
 	}
+    
 
 }
