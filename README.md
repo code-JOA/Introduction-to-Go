@@ -33,9 +33,9 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 
 
 #### [Part 2: Variables](#02.variables)
-- [variable.go](#01.variable.go)
-- [take2inputs](#02.take2inputs.go)
-- [year-of-birth](#03.Year-of-Birth.go)
+- [variables](#01variables.go)
+- [take2inputs](#02takeInput2.go)
+- [year-of-birth](#YearOfBirth.go)
 
 
 
