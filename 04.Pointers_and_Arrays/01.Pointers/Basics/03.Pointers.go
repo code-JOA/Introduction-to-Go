@@ -10,7 +10,6 @@ func new2() {
 	fmt.Println(*a)
 }
 
-
 // # Assignment 2
 func setTo10(b *int) {
 	*b = 10
@@ -24,14 +23,3 @@ func main() {
 }
 
 
-func setTo10Fail(c *int) {
-	c = new(int)
-	*c = 10
-}
-
-func new2() {
-	c := 20
-	fmt.Println(c)
-	setTo10Fail(&c)
-	fmt.Println(c)
-}
