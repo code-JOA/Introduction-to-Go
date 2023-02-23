@@ -16,5 +16,8 @@ func main() {
 		fmt.Println(things[i])
 	}
 
-	
+	// # shorter syntax
+	for i := range things {
+		fmt.Println(things[i])
+	}
 }
