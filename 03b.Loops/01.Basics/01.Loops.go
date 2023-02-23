@@ -21,6 +21,8 @@ func main() {
 		fmt.Println(things[i])
 	}
 
+	
+
 	// # There are no while loops in Go but we can use a similar syntax
 
 	for start < 100 {
