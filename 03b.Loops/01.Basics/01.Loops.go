@@ -20,6 +20,7 @@ func main() {
 	for i := range things {
 		fmt.Println(things[i])
 	}
+	
 
 	s := "Hello, world!"
 		for k, v := range s {
