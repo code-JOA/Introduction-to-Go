@@ -4,9 +4,10 @@ import "fmt"
 
 func main() {
 	var b = 43
-	*c = &b
+	c = &b
+	*b = c
 
 	fmt.Println(b)
 	fmt.Println(*b)
-	fmt.Println
+	fmt.Println(*c)
 }
