@@ -42,12 +42,12 @@ func main() {
 	for start < 100 {
 		start += start
 		if start == 32 {
-			go to mylabel
+			goto mylabel
 		}
 		fmt.Println("Start is now: ", start)
 
-		mylabel: fmt.Println("I can Go")
+	mylabel:
+		fmt.Println("I can Go")
 	}
-
 
 }
