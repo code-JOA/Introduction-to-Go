@@ -12,3 +12,4 @@ func main() {
 	fmt.Println("The length of", anArray, "is", len(anArray))
 	fmt.Println("The first element of", twoD, "is", twoD[0][0])
 	fmt.Println("The length of", threeD, "is", len(threeD))
+}
