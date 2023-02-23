@@ -2,10 +2,7 @@ package main
 
 import "fmt"
 
-
-
-// # the above can also be written this way
-func new2() {
+func main() {
 	i := 1
 	for {
 		fmt.Println(i)
@@ -15,4 +12,11 @@ func new2() {
 		}
 	}
 	fmt.Println(i)
+}
+
+func m() {
+	s := "Hello, world!"
+	for k, v := range s {
+		fmt.Println(k, v, string(v))
+	}
 }
