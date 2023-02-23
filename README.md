@@ -53,11 +53,14 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 
 
 
-#### [Part 5: Numpy ](#numpy)
+#### [Part 4: Points And Arrayys ](#pointers)
+- [Pointers](#Pointers)
+- [Arrays](#Arrays)
 
-#### [Part 6: Pandas](#Pandas)
 
-#### [Part 7: Data Visualisation ](#data_viz)
+#### [Part 6: More](#More)
+
+#### [Part 7: More](#More)
 <!-- #endregion -->
 
 ```python
