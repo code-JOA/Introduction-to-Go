@@ -12,7 +12,7 @@ func main() {
 		fmt.Println(i + start)
 	}
 
-    for i := 0; i < len(things); i++ {
+	for i := 0; i < len(things); i++ {
 		fmt.Println(things[i])
 	}
 
@@ -21,23 +21,22 @@ func main() {
 		fmt.Println(things[i])
 	}
 
-    // # There are no while loops in Go but we can use a similar syntax
+	// # There are no while loops in Go but we can use a similar syntax
 
-    for start < 100 {
+	for start < 100 {
 		start += start
 		if start == 32 {
 			break
 		}
 		fmt.Println("Start is now: ", start)
 	}
-    
-	for start < 100 {
-		start += start
-		if start == 32 {
-			continue
-		}
-		fmt.Println("Start is now: ", start)
-	}
-    
+
+	// for start < 100 {
+	// 	start += start
+	// 	if start == 32 {
+	// 		continue
+	// 	}
+	// 	fmt.Println("Start is now: ", start)
+	// }
 
 }
