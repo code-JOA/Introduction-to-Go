@@ -19,8 +19,8 @@ func main() {
 	}
 
 	x := "👋 🌍"
-	for y, z := range s {
-		fmt.Println(y, z, string(v))
+	for y, z := range x {
+		fmt.Println(y, z, string(z))
 	}
 
 }
