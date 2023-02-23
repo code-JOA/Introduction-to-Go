@@ -11,4 +11,6 @@ func main() {
 	// let's add something else to my luggage
 	luggage = append(luggage, "laptop")
 	fmt.Println(luggage)
+
+	luggage = append(luggage[])
 }
