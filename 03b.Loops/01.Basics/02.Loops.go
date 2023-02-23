@@ -15,5 +15,7 @@ func main() {
 		fmt.Println(x)
 	}
 
-	for x := 0; x <= 5
+	for x := 0; x <= 10; x += 2 {
+		fmt.Println(x)
+	}
 }
