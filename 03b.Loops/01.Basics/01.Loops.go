@@ -13,7 +13,8 @@ func main() {
 	}
 
     for i := 0; i < len(things); i++ {
-		fmt.
+		fmt.Println(things[i])
 	}
 
+	
 }
