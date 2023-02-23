@@ -13,6 +13,6 @@ func main() {
 	fmt.Println(luggage)
 
 	// print out position range 1 and take out the last item in the Array
-	luggage = append(luggage[1: len(luggage)-1])
+	luggage = append(luggage[1 : len(luggage)-1])
 	fmt.Println(luggage)
 }
