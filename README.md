@@ -47,7 +47,11 @@ https://go.dev/doc/modules/managing-dependencies#naming_module
 
 
 
-#### [Part 3b: LOOPs](#regex)
+#### [Part 3b: LOOPs](#Loops)
+- [Basics](#basics)
+- [Advance](#Advance)
+
+
 
 #### [Part 5: Numpy ](#numpy)
 
