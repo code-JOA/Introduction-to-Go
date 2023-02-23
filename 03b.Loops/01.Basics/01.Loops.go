@@ -12,4 +12,8 @@ func main() {
 		fmt.Println(i + start)
 	}
 
+    for i := 0; i < len(things); i++ {
+		fmt.
+	}
+
 }
