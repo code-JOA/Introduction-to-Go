@@ -2,17 +2,6 @@ package main
 
 import "fmt"
 
-// func setTo10(a *int) {
-// 	*a = 10
-// }
-
-// func main() {
-// 	a := 20
-// 	fmt.Println(a)
-// 	setTo10(&a)
-// 	fmt.Println(a)
-// }
-
 func new2() {
 	a := new(int)
 
@@ -20,13 +9,14 @@ func new2() {
 	fmt.Println(*a)
 }
 
-func setTo10(a *int) {
-	*a = 10
+
+func setTo10(b *int) {
+	*b = 10
 }
 
 func main() {
-	a := 20
-	fmt.Println(a)
-	setTo10(&a)
-	fmt.Println(a)
+	b := 20
+	fmt.Println(b)
+	setTo10(&b)
+	fmt.Println(b)
 }
