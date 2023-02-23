@@ -19,7 +19,6 @@ func main() {
 	v[2] = 6
 	fmt.Println(v, v[0], v[1], v[2])
 
-
 	// # next array
 
 	arr := [4]int{1, 2, 3, 4}
@@ -30,16 +29,12 @@ func main() {
 	}
 	fmt.Println(total)
 
-
-	// Two dimentional arrays
-    twoD := [2][3]int{{1,2,3}, {4,5,6}}
+	// Two dimentional arrays with 3 items inside
+	twoD := [2][3]int{{1, 2, 3}, {4, 5, 6}}
 	fmt.Println(twoD[0][2])
-	
+
 	for i := 0; i < len(arr); i++ {
 		total += arr[i]
 	}
 
-
 }
-
-
