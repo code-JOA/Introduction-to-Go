@@ -20,4 +20,6 @@ func main() {
 	v[2] = 6
 	fmt.Println(v, v[0], v[1], v[2])
 
+	
+
 }
