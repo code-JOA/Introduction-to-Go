@@ -11,6 +11,16 @@ func main() {
 	}
 	fmt.Println(i)
 
+	// # the above can also be written this way
 
-	
+	i := 1
+	for {
+		fmt.Println(i)
+		i = i + i
+		if i > 10 {
+			break
+		}
+	}
+	fmt.Println(i)
 }
+
