@@ -50,9 +50,15 @@ func main() {
 		fmt.Println("index:", item,"food:", food)
 	}
 
+	s := "Hello, world!"
+	for k, v := range s {
+		fmt.Println(k, v, string(v))
+	}
+
+
 	cart := [4]string{"choco","sugar","orange","apple"}
 	for k, v := range cart {
-		fmt.Println(k, v , item,"food:", food)
+		fmt.Println(k, v , string)
 	}
 
 }
