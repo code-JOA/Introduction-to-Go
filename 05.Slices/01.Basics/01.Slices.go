@@ -25,8 +25,8 @@ func main() {
 
 	fmt.Println(mavel)
 
-	heroes = append(mavel, "Robin")
-	fmt.Println(mavel) 
+	mavel = append(mavel, "Robin")
+	fmt.Println(mavel)
 	// # finding how much more i can add to heroes
 	fmt.Println(cap(mavel))
 }
