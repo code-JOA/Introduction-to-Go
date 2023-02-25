@@ -17,16 +17,16 @@ func main() {
 	fmt.Println(luggage)
 
 	// # Here we want to create heroes, with 3 elements with an upperbound of 3 but note we can add more items with slices
-	heroes := make([]string, 3, 3)
+	mavel := make([]string, 3, 3)
 
-	heroes[0] = "Batman"
-	heroes[1] = "Superman"
-	heroes[2] = "Spiderman"
+	mavel[0] = "Batman"
+	mavel[1] = "Superman"
+	mavel[2] = "Spiderman"
 
-	fmt.Println(heroes)
+	fmt.Println(mavel)
 
-	heroes = append(heroes, "Robin")
-	fmt.Println(heroes)
+	heroes = append(mavel, "Robin")
+	fmt.Println(mavel) 
 	// # finding how much more i can add to heroes
-	fmt.Println(cap(heroes))
+	fmt.Println(cap(mavel))
 }
