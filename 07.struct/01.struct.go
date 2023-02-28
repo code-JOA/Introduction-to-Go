@@ -26,19 +26,19 @@ func main() {
 	fmt.Printf("---------\n")
 
 
-	i := Cart{
+	f1 := Cart{
 		A: 20,
 	}
 	var f2 Cart
-	f2 = f
+	f2 = f1
 	f2.A = 100
 	fmt.Println(f2.A)
-	fmt.Println(i.A)
+	fmt.Println(f1.A)
 
-	var f3 *Cart = &i
+	var f3 *Cart = &f1
 	f3.A = 200
 	fmt.Println(f3.A)
-	fmt.Println(i.A)
+	fmt.Println(f1.A)
 
 }
 
