@@ -1,7 +1,7 @@
 <!-- #region -->
 # <a id='7'>Introduction-to-Go</a>
 
- # Author : [Joshua Owusu Ankomah](https://www.linkedin.com/in/joshua-owusu-ankomah-2b5a9898/)
+# Author : [Joshua Owusu Ankomah](https://www.linkedin.com/in/joshua-owusu-ankomah-2b5a9898/)
  
  
 
@@ -9,7 +9,7 @@
 
 ![Repo List](./images/go.png)
 
-![](https://forthebadge.com/images/badges/made-with-go.svg)
+![](https://forthebadge.com/images/badges/made-with-Golang.svg)
 
 
 
